@@ -1,0 +1,14 @@
+{
+  "name": "zeeshanstart",
+  "version": "1.0.0",
+  "description": "zee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zeeshan6679",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  }
+}

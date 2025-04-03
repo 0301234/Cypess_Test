@@ -6,6 +6,8 @@ describe("Test Contact Us form via Automation Test Store", () => {
         cy.get("a[href$='contact']").click();
         //cy.xpath("//a[contains(@href, 'contact')]").click(zeeshan);
         cy.get('#ContactUsFrm_first_name').type("Zeeshan");
+
+        cy.get('wdiugqi')
         
         cy.get('#ContactUsFrm_email').type("joe_blogs123@gmail.com");
         cy.get('#ContactUsFrm_enquiry').type("Do you provide additional discount on bulk orders?")

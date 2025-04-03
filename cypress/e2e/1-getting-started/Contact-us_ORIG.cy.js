@@ -6,7 +6,7 @@ describe("Test Contact Us form via Automation Test Store", () => {
         cy.get("a[href$='contact']").click();
         //cy.xpath("//a[contains(@href, 'contact')]").click(joe);
         // this is from GitHub and now this is VS Code
-        cy.get('#ContactUsFrm_first_name').type("Zeeshan Mushtaq");
+        cy.get('#ContactUsFrm_first_name').type("joe");
         cy.get('#ContactUsFrm_email').type("joe_blogs123@gmail.com");
         cy.get('#ContactUsFrm_enquiry').type("Do you provide additional discount on bulk orders?")
         cy.get("button[title='Submit']").click();

@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "TriggerALLtest-headless":"npx cypress run",
-    "TriggerALLtest-headed":"npx cypress run --headed"
+    "TriggerALLtest-headless": "npx cypress run",
+    "TriggerALLtest-headed": "npx cypress run --headed"
   },
   "author": "Zeeshan6679",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.13.0"
+    "cypress": "^14.2.1"
   }
 }

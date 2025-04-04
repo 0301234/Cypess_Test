@@ -1,16 +1,20 @@
 {
-  "name": "zeeshanstart",
+  "name": "zcypress-2",
   "version": "1.0.0",
-  "description": "zee",
+  "description": "zeeshanm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "TriggerALLtest-headless": "npx cypress run",
-    "TriggerALLtest-headed": "npx cypress run --headed"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Zeeshan6679",
+  "author": "zeeshan",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^14.2.1"
+    "cypress": "^12.17.4",
+    "cypress-iframe": "^1.0.1",
+    "fram": "^1.0.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
   }
 }

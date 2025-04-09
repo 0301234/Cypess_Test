@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.665" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:26:05" tests="0" file="cypress\e2e\1-getting-started\Project_start_wotk\Child-window_webdrivecode.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Web drive code " timestamp="2025-04-09T11:26:05" tests="1" time="13.664" failures="0">
+    <testcase name="Web drive code  test automation on webdriver" time="9.689" classname="test automation on webdriver">
+    </testcase>
+  </testsuite>
+</testsuites>

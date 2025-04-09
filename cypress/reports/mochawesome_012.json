@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-09T11:15:17.836Z",
+    "end": "2025-04-09T11:15:35.826Z",
+    "duration": 17990,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8bdd07b0-9834-47fd-90cd-4ba83a1e5880",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\Project_start_wotk\\alies_invoke.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\Project_start_wotk\\alies_invoke.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3e32ec32-6ebd-4a92-a5cb-93d58090c692",
+          "title": "Alias invoke code",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Alias invoke code",
+              "fullTitle": "Alias invoke code Alias invoke code",
+              "timedOut": null,
+              "duration": 8790,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://automationteststore.com/');\ncy.get('#categorymenu').contains('Hair Care').click();\n//each loop functionality code\nconst ilterating_a = cy.get('.fixed_wrapper');\nilterating_a.eq(0).invoke('text').as('zeesahn_a'); //eq(0) mean 1st index // invoke('text') jo text hy veribale ma vo use krna //as('zeesahn_a')  as k zariy dosery variable ma store krna \ncy.get('@zeesahn_a'); // @ alias ko use krny k liy use krty ab //cy.get('@zeesahn_a') aik variable hy",
+              "err": {},
+              "uuid": "ba111b3a-3055-4c5e-97f9-e39e943ad2a5",
+              "parentUUID": "3e32ec32-6ebd-4a92-a5cb-93d58090c692",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "combine Alias invoke code",
+              "fullTitle": "Alias invoke code combine Alias invoke code",
+              "timedOut": null,
+              "duration": 3208,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//combine Alias invoke code\ncy.visit('https://automationteststore.com/');\ncy.get('.thumbnail').find('.price').invoke('text').as('zeeshan_as'); //sari line ko zeeshan_as consider kar rha\ncy.get('@zeeshan_as').then($zishan_a => {\n  //sari vale zishan_a ma store ho gae // zishan_a ma 16 values hy un ko loop k through print krvana\n  cy.log('Nomi');\n  var i;\n  var nomi = $zishan_a.split('$'); // ab sari value nomi ma store ho gae\n  var a = 1;\n  for (i = 0; i < nomi.length; i++) {\n    cy.log('zeeshan');\n    cy.log(a);\n    cy.log(nomi[i]);\n    a++;\n  }\n});",
+              "err": {},
+              "uuid": "a9d503d1-998b-4f28-97db-12c333403c4a",
+              "parentUUID": "3e32ec32-6ebd-4a92-a5cb-93d58090c692",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba111b3a-3055-4c5e-97f9-e39e943ad2a5",
+            "a9d503d1-998b-4f28-97db-12c333403c4a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11998,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.392" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:28:54" tests="0" file="cypress\e2e\1-getting-started\Lecture_30_To_39\sohib.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="template spec" timestamp="2025-04-09T11:28:54" tests="2" time="13.389" failures="0">
+    <testcase name="template spec passes" time="8.062" classname="passes">
+    </testcase>
+    <testcase name="template spec enter the credentials" time="0.821" classname="enter the credentials">
+    </testcase>
+  </testsuite>
+</testsuites>

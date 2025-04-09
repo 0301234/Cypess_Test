@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.692" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:25:40" tests="0" file="cypress\e2e\1-getting-started\Contact-us_ORIG2nd.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact Us form via Automation Test Store" timestamp="2025-04-09T11:25:40" tests="1" time="21.691" failures="1">
+    <testcase name="Test Contact Us form via Automation Test Store Should be able to submit a successful submission via contact us form" time="0.000" classname="Should be able to submit a successful submission via contact us form">
+      <failure message="Timed out retrying after 4000ms: The command was expected to run against origin `https://www.automationteststore.com` but the application is at origin `https://automationteststore.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.
+
+Using `cy.origin()` to wrap the commands run on `https://automationteststore.com` will likely fix this issue.
+
+`cy.origin(&apos;https://automationteststore.com&apos;, () =&gt; {`
+`  &lt;commands targeting https://automationteststore.com go here&gt;`
+`})`
+
+https://on.cypress.io/cy-visit-succeeded-but-commands-fail" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4000ms: The command was expected to run against origin `https://www.automationteststore.com` but the application is at origin `https://automationteststore.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.
+
+Using `cy.origin()` to wrap the commands run on `https://automationteststore.com` will likely fix this issue.
+
+`cy.origin('https://automationteststore.com', () => {`
+`  <commands targeting https://automationteststore.com go here>`
+`})`
+
+https://on.cypress.io/cy-visit-succeeded-but-commands-fail
+    at cypressErr (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:76205:18)
+    at Object.errByPath (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:76259:10)
+    at Object.commandCanCommunicateWithAUT (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:147111:90)
+    at <unknown> (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:134074:22)
+    at Object.subjectFn (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:145953:16)
+    at $Cy.verifyUpcomingAssertions (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:145275:31)
+    at onRetry (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:145944:15)
+    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1777:23)
+    at Promise.attempt.Promise.try (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:4285:29)
+    at whenStable (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:145831:68)
+    at <unknown> (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:145772:14)
+    at tryCatcher (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1777:23)
+    at Promise._settlePromiseFromHandler (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1489:31)
+    at Promise._settlePromise (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1546:18)
+    at Promise._settlePromise0 (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1591:10)
+    at Promise._settlePromises (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1671:18)
+    at Promise._fulfill (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:1615:18)
+    at <unknown> (https://www.automationteststore.com/__cypress/runner/cypress_runner.js:5420:46)
+From Your Spec Code:
+    at Context.eval (webpack://zcypress-2/./cypress/e2e/1-getting-started/Contact-us_ORIG2nd.cy.js:7:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

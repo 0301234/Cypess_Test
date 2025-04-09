@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.231" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:27:00" tests="0" file="cypress\e2e\1-getting-started\Project_start_wotk\ilterating_element.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Ilterating elements command" timestamp="2025-04-09T11:27:00" tests="1" time="15.229" failures="0">
+    <testcase name="Ilterating elements command Ilterating elements command" time="9.983" classname="Ilterating elements command">
+    </testcase>
+  </testsuite>
+</testsuites>

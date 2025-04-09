@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-09T11:13:36.005Z",
+    "end": "2025-04-09T11:13:47.073Z",
+    "duration": 11068,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "36d69129-8fa6-4e0f-93f6-f4301c0eaf71",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\Lecture_30_To_39\\Handling_Autocomplete_Lists.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\Lecture_30_To_39\\Handling_Autocomplete_Lists.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "555120a3-180f-432e-b6c9-4c0730708904",
+          "title": "Handing Autocompelete list button code ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Handing Autocompelete list on webdriver",
+              "fullTitle": "Handing Autocompelete list button code  Handing Autocompelete list on webdriver",
+              "timedOut": null,
+              "duration": 8891,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://www.webdriveruniversity.com');\ncy.get('#autocomplete-textfield').invoke('removeAttr', 'target').click();\ncy.get('#myInput').type('c');\ncy.get('#myInputautocomplete-list>*').each(($ft_pro, index_p, $list_p) => {\n  const value_of_field = $ft_pro.text();\n  const value_whichneed_match = 'Coffee';\n  if (value_whichneed_match === value_of_field) {\n    //$ft_pro.click()\n    cy.wrap($ft_pro).click();\n    cy.get('#submit-button').click();\n    cy.url().should('include', value_whichneed_match);\n  }\n}).then(() => {\n  cy.get('#myInput').type('a');\n  cy.get('#myInputautocomplete-list>*').each(($ft_pro, index_p, $list_p) => {\n    const value_of_field = $ft_pro.text();\n    const value_whichneed_match = 'Apple';\n    if (value_whichneed_match === value_of_field) {\n      //$ft_pro.click()\n      cy.wrap($ft_pro).click();\n      cy.get('#submit-button').click();\n      cy.url().should('include', value_whichneed_match);\n    }\n  });\n});",
+              "err": {},
+              "uuid": "762b17b0-e8c9-4bd8-accc-d1dd1b7f1eb1",
+              "parentUUID": "555120a3-180f-432e-b6c9-4c0730708904",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "762b17b0-e8c9-4bd8-accc-d1dd1b7f1eb1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8891,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

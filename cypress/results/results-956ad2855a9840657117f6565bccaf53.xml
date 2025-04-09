@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.944" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:28:18" tests="0" file="cypress\e2e\1-getting-started\Lecture_30_To_39\Handling_Autocomplete_Lists.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Handing Autocompelete list button code " timestamp="2025-04-09T11:28:18" tests="1" time="9.941" failures="0">
+    <testcase name="Handing Autocompelete list button code  Handing Autocompelete list on webdriver" time="6.438" classname="Handing Autocompelete list on webdriver">
+    </testcase>
+  </testsuite>
+</testsuites>

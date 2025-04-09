@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.814" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:27:18" tests="0" file="cypress\e2e\1-getting-started\Project_start_wotk\veriable_Jqyery_Code.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Veriable, cypress Command and Jquery command" timestamp="2025-04-09T11:27:18" tests="1" time="14.811" failures="0">
+    <testcase name="Veriable, cypress Command and Jquery command Veriable, cypress Command and Jquery command" time="9.981" classname="Veriable, cypress Command and Jquery command">
+    </testcase>
+  </testsuite>
+</testsuites>

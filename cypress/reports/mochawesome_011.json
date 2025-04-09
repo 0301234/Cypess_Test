@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-09T11:14:56.938Z",
+    "end": "2025-04-09T11:15:14.455Z",
+    "duration": 17517,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "56764917-8b69-41c4-9bda-0231287a0e3f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\Project_start_wotk\\Selector_Code_promises.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\Project_start_wotk\\Selector_Code_promises.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0390d161-69dd-43a5-b69b-5fc5ae6f4de4",
+          "title": "Web drive code ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test automation store With CSS selector",
+              "fullTitle": "Web drive code  test automation store With CSS selector",
+              "timedOut": null,
+              "duration": 12274,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//test automation store With CSS selector\ncy.visit('https://automationteststore.com/');\ncy.get('a[href=\"https://automationteststore.com/index.php?rt=content/contact\"]').click().then(linkcontactus => {\n  console.log(\"My name is zee   :\" + linkcontactus.text()); // then promises and command\n});\ncy.get('.info_links_footer > :nth-child(5) > a').click();\ncy.get('input[id=\"ContactUsFrm_first_name\"]').type('Zishan');\ncy.get('input[id=\"ContactUsFrm_email\"]').type('zishan@gai.com');\ncy.get('textarea[id=\"ContactUsFrm_enquiry\"]').type('CSS selector');\ncy.get('button[title=\"Submit\"]').click();\ncy.get('.mb40 > :nth-child(3)').should('have.text', 'Your enquiry has been successfully sent to the store owner!');",
+              "err": {},
+              "uuid": "e37a9876-2723-4e53-ae2b-e57d6db20c28",
+              "parentUUID": "0390d161-69dd-43a5-b69b-5fc5ae6f4de4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e37a9876-2723-4e53-ae2b-e57d6db20c28"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12274,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.140" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:26:43" tests="0" file="cypress\e2e\1-getting-started\Project_start_wotk\alies_invoke.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Alias invoke code" timestamp="2025-04-09T11:26:43" tests="2" time="14.139" failures="0">
+    <testcase name="Alias invoke code Alias invoke code" time="7.600" classname="Alias invoke code">
+    </testcase>
+    <testcase name="Alias invoke code combine Alias invoke code" time="2.651" classname="combine Alias invoke code">
+    </testcase>
+  </testsuite>
+</testsuites>

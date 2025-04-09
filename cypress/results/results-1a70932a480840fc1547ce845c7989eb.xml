@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.707" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-04-09T11:27:56" tests="0" file="cypress\e2e\1-getting-started\Lecture_30_To_39\Checkbox_radioButton.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Check box and radio button code " timestamp="2025-04-09T11:27:56" tests="1" time="7.705" failures="0">
+    <testcase name="Check box and radio button code  Radio button code on webdriver" time="4.399" classname="Radio button code on webdriver">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -8,5 +8,8 @@ describe("Test Contact Us form via Automation Test Store", () => {
         cy.get('#ContactUsFrm_email').type("joe_blogs123@gmail.com");
         cy.get('#ContactUsFrm_enquiry').type("Do y?")
         cy.get("button[title='Submit']").click();
+
+
+        console.log('zeeshan')
     });
 })
